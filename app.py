@@ -65,7 +65,7 @@ faceNet = cv2.dnn.readNet(faceModel, faceProto)
 ageNet = cv2.dnn.readNet(ageModel, ageProto)
 genderNet = cv2.dnn.readNet(genderModel, genderProto)
 
-# Index route
+
 @app.route("/", methods=["GET"])
 def index():
     # Main page
